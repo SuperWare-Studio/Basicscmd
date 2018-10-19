@@ -1,0 +1,2 @@
+# Basicscmd
+server plugin
