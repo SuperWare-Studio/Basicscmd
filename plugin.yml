@@ -1,3 +1,17 @@
 name: Basicscmd
 main: main.main
 version: 1.0
+#插件作者
+authors: Mr.yan
+#插件网站（一般填写开源地址或插件发布页面）
+website: 
+#插件描述
+#插件的软前置（你的插件会在这些插件之后加载）
+#- EssentialsSpawn
+#插件的硬前置（你的插件会在这些插件之后加载，并且没有这些插件的话你的插件就不会被加载）
+#depend:
+#- Vault
+#你的插件会在这些插件之前加载
+#loadbefore: 
+#- SkillAPI
+#- Quests
