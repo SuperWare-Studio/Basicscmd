@@ -21,7 +21,7 @@ commands:
     description: say hello to anyone
     usage: /hello <player>
     permission: Basicscmd.hello
-    permission-message: 你没有这样的权限
+    permission-message: 您没有这个命令的权限！
 #permissions
 permissions:
   Basicscmd.*:

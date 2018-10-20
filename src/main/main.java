@@ -14,5 +14,5 @@ public class main extends JavaPlugin {
 	@Override
 	public void onLoad() {
 		System.out.println("ВхМўжиди");
-	}
+	}	
 }
