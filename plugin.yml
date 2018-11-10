@@ -2,17 +2,8 @@ name: Basicscmd
 main: main.main
 version: 1.0
 commands:
-  kill myself:
-    description: kill myself
-    usage: /kill myself
-    permission: Basicscmd.killmyself
-    permission-message: 你没有自杀的权限
-    aliases: [km]
-permissions:
-  Basicscmd.*:
-    description: Gives access to all Basicscmd actions and commands
-    default: false
-    //true为所有人拥有，false为仅控制台，op为OP和控制台拥有。
-    //它并不影响权限插件（permissionex之类的）的配置
-    kill:
-        Basicscmd.killmyself:true
+  hello:
+    description: say hello to anyone
+    usage: /hello <player>
+    permission: Basicscmd.hello
+    permission-message: 你没有这样的权限
